@@ -5,7 +5,7 @@ import time
 from datetime import datetime, timezone
 
 # === Configuration ===
-API_ENDPOINT = "http://localhost:5000/api/system-data"  # Change to your backend URL if needed
+API_ENDPOINT = "http://localhost:8000/api/system-data"  # Change to your backend URL if needed
 DEVICE_ID = platform.node()
 SEND_INTERVAL = 60  # seconds
 
